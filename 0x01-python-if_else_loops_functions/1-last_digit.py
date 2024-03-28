@@ -1,7 +1,7 @@
 import random
 number = random.randint(-10000, 10000)
 number=abs(number)
-last_digit=number%10
+last_digit=abs(number%10)
 if last_digit == 0:
     print(f"{last_digit} is zero")
 elif last_digit > 5:
