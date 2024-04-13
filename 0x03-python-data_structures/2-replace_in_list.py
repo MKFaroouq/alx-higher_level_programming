@@ -7,5 +7,5 @@ def replace_in_list(my_list, idx, element):
     else:
         for i in my_list:
             if my_list.index(i) == idx:
-                my_list[i]==element
+                my_list[idx]==element
             return my_list
