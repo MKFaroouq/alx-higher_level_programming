@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 const { argv } = require('process');
 const log = console.log;
 let i = 0;
