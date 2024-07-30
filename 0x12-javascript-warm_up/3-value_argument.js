@@ -12,4 +12,3 @@ if (i === 2) {
 } else {
 	  log(argv[2]);
 }
-
