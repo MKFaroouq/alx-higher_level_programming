@@ -1,13 +1,14 @@
 #!/usr/bin/node
-const { argv } = require('process');
-const log = console.log;
-let i = 0;
 
-while (argv[i]) {
-	  i++;
-}
-if (i === 2) {
-	  log('No argument');
+const argv = process.argv;
+let argvCount = 0;
+
+argv.forEach((val, index) => {
+  argvCount++;
+});
+
+if (argvCount === 2) {
+  console.log('No argument');
 } else {
-	  log(argv[2]);
+  console.log(argv[2]);
 }
